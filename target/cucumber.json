@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can login",
+        "description": "",
+        "id": "this-is-a-login-feature-for-verify-login-functionality;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4581169600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open demoblaze Application",
+            "match": {
+              "location": "stepdefination_class.open_demoblaze_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20263088300,
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: MicrosoftEdge\u003d116.0.1938.76)\nBuild info: version: \u00274.11.0\u0027, revision: \u0027040bc5406b\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.18\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [b90f5159053f1f88bd833022c75fe34c, sendKeysToElement {id\u003dEE25FE5089F8A9199E778C5BF3A1929E_element_60, value\u003d[Ljava.lang.CharSequence;@c889805}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.76, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59209}, msedge: {msedgedriverVersion: 116.0.1938.76 (3ea752a1990a..., userDataDir: C:\\Users\\ahmed\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59209/devtoo..., se:cdpVersion: 116.0.1938.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on windows (b90f5159053f1f88bd833022c75fe34c)] -\u003e id: loginusername]\nSession ID: b90f5159053f1f88bd833022c75fe34c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)\r\n\tat stepdepination_package.stepdefination_class.enter_username(stepdefination_class.java:45)\r\n\tat ✽.Then Enter username(naz.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Enter username",
+            "match": {
+              "location": "stepdefination_class.enter_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter passward",
+            "match": {
+              "location": "stepdefination_class.enter_passward()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Verify user can login",
+            "match": {
+              "location": "stepdefination_class.verify_user_can_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@araab"
+          }
+        ]
+      }
+    ],
+    "name": "This is a Login feature for verify login functionality",
+    "description": "",
+    "id": "this-is-a-login-feature-for-verify-login-functionality",
+    "keyword": "Feature",
+    "uri": "naz.feature"
+  }
+]
